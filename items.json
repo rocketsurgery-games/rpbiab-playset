@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": "ITEM_0003",
+      "name": "Book",
+      "description": "",
+      "tags": [],
+      "stackable": false,
+      "equippable": true,
+      "effects": [{"amount":1,"stat":"attack","type":"stat_boost"}],
+      "object": "book01",
+      "image": "book01.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0002",
+      "name": "Flint",
+      "description": "",
+      "tags": [],
+      "stackable": false,
+      "tool_item": true,
+      "tool_item_range": 1,
+      "tool_item_script_mode": "entity",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0001",
+      "name": "Green Book",
+      "description": "A green book",
+      "tags": [],
+      "stackable": false,
+      "object": "book01",
+      "tool_item": false,
+      "tool_item_range": 1,
+      "tool_item_script_mode": "entity",
+      "image": "book01.png",
+      "usable": false
+    }
+  ],
+  "localized": false
+}

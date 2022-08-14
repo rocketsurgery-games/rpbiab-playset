@@ -1,0 +1,9 @@
+if self.property["open"] == false then
+  set_entity_property(self, "open", true);
+  play_animation(self, "open");
+  modify_navigation(self.property["out_tile"], self.property["in_tile"], WALK_AND_INTERACT);
+else
+  set_entity_property(self, "open", false);
+  play_animation(self, "close");
+  modify_navigation(self.property["out_tile"], self.property["in_tile"], INTERACT_ONLY);
+end;
