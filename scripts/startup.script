@@ -1,1 +1,1 @@
-load_map("Map", coord[12, -1, 0], SOUTH);
+load_map("Test", coord[10, 6, 0], SOUTH);

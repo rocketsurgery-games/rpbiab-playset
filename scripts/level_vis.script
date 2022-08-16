@@ -1,0 +1,3 @@
+if initiator == player then
+  log_message("player");
+end;
