@@ -1,0 +1,8 @@
+if self.property["open"] == true then
+	set_entity_property(self, "open", false);
+	play_animation(self, "close");
+else
+	set_entity_property(self, "open", true);
+	play_animation(self, "open");
+end;
+
