@@ -1,8 +1,1 @@
-load_map("Test", coord[22, 7, 0], SOUTH);
-
-$frame = entity["frame"];
-attach_object("window-01", $frame, "window");
-
-$wnd = $frame.attachment["window"];
-play_animation($wnd, "open");
-set_entity_script($wnd, "window", ENTER_TILE, true);
+load_map("Test", coord[4, 3, 16], SOUTH);
