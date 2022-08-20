@@ -2,13 +2,16 @@
   "items": [
     {
       "id": "ITEM_0003",
-      "name": "Book",
+      "name": "Book 01",
       "description": "",
       "tags": [],
       "stackable": false,
-      "equippable": true,
+      "equippable": false,
       "effects": [{"amount":1,"stat":"attack","type":"stat_boost"}],
       "object": "book01",
+      "tool_item": true,
+      "tool_item_range": 1,
+      "tool_item_script_mode": "entity",
       "image": "book01.png",
       "usable": false
     },
