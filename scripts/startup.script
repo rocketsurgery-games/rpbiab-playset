@@ -1,1 +1,1 @@
-load_map("Example", coord[1, 9, -16], NORTH);
+load_map("Example2", coord[1, 10, 0], NORTH);
